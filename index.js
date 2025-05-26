@@ -37,7 +37,7 @@ const contaCorrenteRicardo = new contaCorrente();
 contaCorrenteRicardo.agencia = 1001;
 
 contaCorrenteRicardo.depositar(100);
-contaCorrenteRicardo.sacar(50)
+contaCorrenteRicardo.sacar(50);
 
 console.log(contaCorrenteRicardo);
 
