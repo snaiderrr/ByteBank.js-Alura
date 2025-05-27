@@ -1,3 +1,6 @@
+import {Cliente} from "./Cliente.js"
+import {contaCorrente} from "./ContaCorrente.js"
+
 const cliente1 = new Cliente();
 const cliente2 = new Cliente();
 

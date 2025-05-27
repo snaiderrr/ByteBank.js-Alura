@@ -1,0 +1,20 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Projeto do bytebank para seus clientes",
+  "homepage": "https://github.com/snaiderrr/aluraJS#readme",
+  "bugs": {
+    "url": "https://github.com/snaiderrr/aluraJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snaiderrr/aluraJS.git"
+  },
+  "license": "ISC",
+  "author": "Snaider",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
