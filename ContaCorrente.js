@@ -18,7 +18,8 @@ export class contaCorrente {
     }
 
     transferir(valor, conta){
-       const valorSacado = this.sacar(valor);
-       conta.depositar(valor); 
+        
+        const valorSacado = this.sacar(valor);
+        conta.depositar(valor);
     }
 }
