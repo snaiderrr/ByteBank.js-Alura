@@ -38,7 +38,7 @@ export class contaCorrente {
     }
 
     depositar(valor) {
-        if(valor <= 0){
+        if(valor <= 100){
             return;
         }
         this._saldo += valor;
