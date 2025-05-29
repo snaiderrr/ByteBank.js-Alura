@@ -32,7 +32,6 @@ export class Conta{
             this._saldo -= valorSacado;
             return valorSacado;
         }
-
     }
 
     depositar(valor) {
@@ -42,5 +41,9 @@ export class Conta{
     transferir(valor, conta){
         const valorSacado = this.sacar(valor);
         conta.depositar(valor);
+    }
+
+    teste(){
+        console.log("teste na classe conta");
     }
 }
